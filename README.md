@@ -154,4 +154,16 @@ We use SSH for remote login to server. Linux knowledge is highly recommended. Re
 For Windows: Use PuTTY
 For Mac / Linux: Use OpenSSH
 
+#### Setting up PuTTY for oClubs SSH (Windows)
+1. Make sure you have PuTTY and puttygen installed (puttygen should be bundled in PuTTY installation)
+2. Open `puttygen.exe` from your PuTTY installation folder
+3. Make sure `RSA` is selected in the `Parameters` section and `Number of bits in a generated key` is at least 1024
+4. Hit Generate and generate a key.
+5. Save your public key and send it to your department leader or one of the founders.
+6. Save your private key to some secured storage
+7. In PuTTY, navigate to `Connection` -> `SSH` -> `Auth` from the column on the left
+8. Import the key from step 6 to `Authentication parameters` -> `Private key for authentication`
+9. Congragulations, you're now done with the setup:)
+
+
 This section is TODO...
